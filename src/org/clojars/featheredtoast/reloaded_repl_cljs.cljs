@@ -35,14 +35,6 @@
   (swap! system #(do (stop-system %) nil))
   :ok)
 
-(defn before-reload []
-  (println "before reload... stopping!")
-  (stop))
-
-(defn after-reload []
-  (println "after reload... going!")
-  (go))
-
 (defn set-init-go! [init]
   (set-init! init)
   (when-not @system
