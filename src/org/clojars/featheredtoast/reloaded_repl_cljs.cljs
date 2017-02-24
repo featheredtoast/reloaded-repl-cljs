@@ -35,6 +35,8 @@
   (swap! system #(do (stop-system %) nil))
   :ok)
 
+(def reset go)
+
 (defn set-init-go! [init]
   (set-init! init)
   (when-not @system
