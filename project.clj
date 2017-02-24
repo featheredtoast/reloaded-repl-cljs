@@ -1,4 +1,4 @@
-(defproject org.clojars.featheredtoast/reloaded-repl-cljs "0.1.0"
+(defproject org.clojars.featheredtoast/reloaded-repl-cljs "0.2.0-SNAPSHOT"
   :description "Reloaded repl as CLJS"
   :url "https://github.com/featheredtoast/reloaded-repl-cljs"
   :license {:name "Eclipse Public License"
