@@ -1,4 +1,4 @@
-(defproject org.clojars.featheredtoast/reloaded-repl-cljs "0.1.0-SNAPSHOT"
+(defproject org.clojars.featheredtoast/reloaded-repl-cljs "0.1.0"
   :description "Reloaded repl as CLJS"
   :url "https://github.com/featheredtoast/reloaded-repl-cljs"
   :license {:name "Eclipse Public License"
@@ -11,7 +11,7 @@
   :hooks [leiningen.cljsbuild]
 
   :cljsbuild
-  {:builds 
+  {:builds
    {:test
     {:source-paths ["src" "test"]
      :compiler {:main org.clojars.featheredtoast.reloaded-repl-cljs-test
